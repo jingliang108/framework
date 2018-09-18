@@ -1,9 +1,9 @@
-package com.tanjin.framework.base.database.domain.returns;
+package com.giraffe.framework.base.database.domain.returns;
 
 import java.io.Serializable;
 
-import com.tanjin.framework.base.common.utils.MyBeanUtils;
-import com.tanjin.framework.base.database.domain.common.SerializableModel;
+import com.giraffe.framework.base.common.utils.MyBeanUtils;
+import com.giraffe.framework.base.database.domain.common.SerializableModel;
 
 /**
  * 方法调用结果封装基础类，主要用于业务层的方法返回值的封装

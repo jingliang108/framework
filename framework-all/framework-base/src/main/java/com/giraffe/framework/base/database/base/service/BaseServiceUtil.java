@@ -1,11 +1,11 @@
-package com.tanjin.framework.base.database.base.service;
+package com.giraffe.framework.base.database.base.service;
 
 
 import javax.persistence.Id;
 
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.common.utils.ReflectUtil;
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.ReflectUtil;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
 
 public class BaseServiceUtil {
 

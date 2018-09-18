@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.vo;
+package com.giraffe.framework.base.wechat.vo;
 
 public class WechatOpenIdVo {
 	private String access_token; // 网页授权接口调用凭证,注意：此access_token与基础支持的access_token不同

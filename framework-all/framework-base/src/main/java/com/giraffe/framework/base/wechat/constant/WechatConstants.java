@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.constant;
+package com.giraffe.framework.base.wechat.constant;
 
 /**
  * 类说明

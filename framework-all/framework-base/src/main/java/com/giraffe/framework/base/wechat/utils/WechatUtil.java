@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.utils;
+package com.giraffe.framework.base.wechat.utils;
 
 import java.io.IOException;
 
@@ -7,15 +7,15 @@ import org.slf4j.LoggerFactory;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.common.utils.HttpRequester;
-import com.tanjin.framework.base.common.utils.HttpRespons;
-import com.tanjin.framework.base.common.utils.LogFormatUtil;
-import com.tanjin.framework.base.common.utils.Sha1Util;
-import com.tanjin.framework.base.database.redis.RedisManager;
-import com.tanjin.framework.base.wechat.constant.WechatConstants;
-import com.tanjin.framework.base.wechat.vo.WechatOpenIdVo;
-import com.tanjin.framework.base.wechat.vo.WechatShareJSVO;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.HttpRequester;
+import com.giraffe.framework.base.common.utils.HttpRespons;
+import com.giraffe.framework.base.common.utils.LogFormatUtil;
+import com.giraffe.framework.base.common.utils.Sha1Util;
+import com.giraffe.framework.base.database.redis.RedisManager;
+import com.giraffe.framework.base.wechat.constant.WechatConstants;
+import com.giraffe.framework.base.wechat.vo.WechatOpenIdVo;
+import com.giraffe.framework.base.wechat.vo.WechatShareJSVO;
 
 /**
  * 类说明
