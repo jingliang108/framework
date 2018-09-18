@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 import net.sourceforge.pinyin4j.PinyinHelper;
 import net.sourceforge.pinyin4j.format.HanyuPinyinCaseType;

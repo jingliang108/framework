@@ -1,13 +1,13 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 import java.lang.reflect.Field;
 import java.util.Date;
 
 import org.mongodb.morphia.annotations.Transient;
 
-import com.tanjin.framework.base.database.annotations.DefaultValueOnSave;
-import com.tanjin.framework.base.database.annotations.DefaultValueType;
-import com.tanjin.framework.base.database.domain.common.ObjectId;
+import com.giraffe.framework.base.database.annotations.DefaultValueOnSave;
+import com.giraffe.framework.base.database.annotations.DefaultValueType;
+import com.giraffe.framework.base.database.domain.common.ObjectId;
 
 /**
  * 根据DefaultValue注解在进行新增记录时给实体对象赋默认值

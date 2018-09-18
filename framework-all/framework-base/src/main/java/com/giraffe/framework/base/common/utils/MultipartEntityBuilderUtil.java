@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.ByteArrayBody;

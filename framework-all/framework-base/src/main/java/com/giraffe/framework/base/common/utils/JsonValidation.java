@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;

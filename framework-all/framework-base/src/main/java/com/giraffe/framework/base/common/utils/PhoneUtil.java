@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 public class PhoneUtil {
     private final static String yiDong = "134、135、136、137、138、139、150、151、152、157、158、159、1705、178、182、183、184、187、188、147";

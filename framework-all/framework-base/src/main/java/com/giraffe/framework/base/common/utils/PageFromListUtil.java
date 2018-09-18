@@ -1,9 +1,9 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 
 import java.util.List;
 
-import com.tanjin.framework.base.database.domain.page.PageSearch;
+import com.giraffe.framework.base.database.domain.page.PageSearch;
 
 
 /**
