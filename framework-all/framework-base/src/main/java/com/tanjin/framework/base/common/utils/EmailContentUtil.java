@@ -1,0 +1,71 @@
+package com.tanjin.framework.base.common.utils;
+
+public class EmailContentUtil {
+
+	public static String getContentUtil(String name,String email,String password){
+		StringBuilder sb=new StringBuilder();
+		sb.append("<html xmlns=\"http://www.w3.org/1999/xhtml\">");
+		sb.append("<head>");
+		sb.append("<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />");
+		sb.append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />");
+		sb.append("<title>激活邮件</title>");
+		sb.append("</head>");
+		sb.append("<body>");
+		sb.append("<table cellspacing=\"0\" cellpadding=\"0\" width=\"840\" height=\"640\" align=\"center\" bgcolor=\"#F0F0F0\">");
+		sb.append("<tbody>");
+		sb.append("<tr>");
+		sb.append("<td width=\"20\"></td>");
+		sb.append("<td height=\"20\"></td>");
+		sb.append("<td width=\"20\"></td>");
+		sb.append("</tr>");            
+		sb.append("<tr>");
+		sb.append("<td></td>");
+		sb.append("<td height=\"520\">");
+		sb.append("<table cellspacing=\"0\" cellpadding=\"0\" width=\"800\" height=\"520\" align=\"center\" bgcolor=\"#FFFFFF\">");
+		sb.append("<tbody>");
+		sb.append("<tr>");
+		sb.append("<td width=\"30\"></td>");
+		sb.append("<td valign=\"top\">");
+		sb.append("<table cellspacing=\"0\" cellpadding=\"0\" width=\"740\" height=\"520\" align=\"center\">");
+		sb.append("<tbody>");
+		sb.append("<tr>");
+		sb.append("<td style=\"font-size:18px;color:#000;padding:34px 0 18px;height:24px;border-bottom:#cccccc 1px solid;line-height:120%;\">亲爱的 "+name+":</td>");
+		sb.append("</tr>");
+		sb.append("<tr>");
+		sb.append("<td style=\"padding:0;height:150px;border-bottom:#cccccc 1px dashed;\">");
+		sb.append("<p style=\"font-size:14px;color:#000;line-height:120%;\">欢迎使用e打卡，以下是您的登录账号和激活码，请妥善保存！</p>");
+		sb.append("<p style=\"font-size:14px;color:#656565;padding-top:10px;line-height:120%;\">账  号：<span style=\"color:#FF1111;font-size:16px;\">"+email+"</span></p>");
+		sb.append("<p style=\"font-size:14px;color:#656565;line-height:120%;\">激活码：<span style=\"color:#FF1111;font-size:16px;\">"+password+"</span></p>");
+		sb.append("</td>");
+		sb.append("</tr>");
+		sb.append("<tr>");
+		sb.append("<td align=\"center\" valign=\"top\">");
+		sb.append("<p style=\"font-size:18px;color:#656565;line-height:120%;padding-top:40px;\">请扫描以下二维码下载APP</p>");
+		sb.append("<img src=\"qrcode.gif\" width=\"162\" height=\"162\" />");
+		sb.append("</td>");
+		sb.append("</tr>");
+		sb.append("</tbody>");
+		sb.append("</table>");
+		sb.append("</td>");
+		sb.append("<td width=\"30\"></td>");
+		sb.append("</tr>");
+		sb.append("</tbody>");
+		sb.append("</table>");
+		sb.append("</td>");
+		sb.append("<td></td>");
+		sb.append("</tr>");
+		sb.append("<tr>");
+		sb.append("<td></td>");
+		sb.append("<td align=\"center\">");
+		sb.append("<p style=\"font-size:14px;color:#000000;line-height:100%;\">--e打卡团队</p>");
+		sb.append("<p style=\"font-size:14px;color:#656565;line-height:100%;\">（这是一封系统自动发送的邮件，请勿回复！）</p>");
+		sb.append("</td>");
+		sb.append("<td></td>");
+		sb.append("</tr>");
+		sb.append("</tbody>");
+		sb.append("</table>");
+		sb.append("</body>");
+		sb.append("</html>");
+		return sb.toString();
+	}
+}
