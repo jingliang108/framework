@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.exceptions;
+package com.giraffe.framework.base.common.exceptions;
 
 /**
  * 用户获取共享锁超时

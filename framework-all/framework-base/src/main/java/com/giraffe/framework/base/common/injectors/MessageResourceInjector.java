@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.injectors;
+package com.giraffe.framework.base.common.injectors;
 
 import java.io.IOException;
 import java.io.InputStream;

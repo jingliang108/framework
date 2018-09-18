@@ -1,11 +1,11 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 import java.lang.reflect.Field;
 import java.util.List;
 
 import com.google.common.collect.Lists;
-import com.tanjin.framework.base.database.annotations.BasicField;
-import com.tanjin.framework.base.database.annotations.CombobxField;
+import com.giraffe.framework.base.database.annotations.BasicField;
+import com.giraffe.framework.base.database.annotations.CombobxField;
 
 /**
  * Created by liuyijun on 2016/6/6.

@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.utils;
+package com.giraffe.framework.base.common.utils;
 
 public class CoordinateConversionUtil {
 	private static final double x_pi = 3.14159265358979324 * 3000.0 / 180.0;

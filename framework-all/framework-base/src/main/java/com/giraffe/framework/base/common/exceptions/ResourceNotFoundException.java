@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.common.exceptions;
+package com.giraffe.framework.base.common.exceptions;
 
 public class ResourceNotFoundException extends RuntimeException{
 	/**

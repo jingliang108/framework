@@ -1,8 +1,8 @@
-package com.tanjin.framework.base.common.exceptions;
+package com.giraffe.framework.base.common.exceptions;
 
 import java.text.MessageFormat;
 
-import com.tanjin.framework.base.common.injectors.MessageResourceInjector;
+import com.giraffe.framework.base.common.injectors.MessageResourceInjector;
 
 
 /**
