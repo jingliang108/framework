@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo;
+package com.giraffe.framework.base.database.mongo;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,9 +9,9 @@ import org.mongodb.morphia.annotations.Transient;
 import org.mongodb.morphia.annotations.Version;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.database.annotations.DefaultValueOnSave;
-import com.tanjin.framework.base.database.annotations.DefaultValueType;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.database.annotations.DefaultValueOnSave;
+import com.giraffe.framework.base.database.annotations.DefaultValueType;
 
 public abstract class BaseEntity implements Serializable {
 

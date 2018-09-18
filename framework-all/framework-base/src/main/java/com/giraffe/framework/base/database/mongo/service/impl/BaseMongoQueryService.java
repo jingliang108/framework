@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo.service.impl;
+package com.giraffe.framework.base.database.mongo.service.impl;
 
 import java.io.Serializable;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.bson.types.ObjectId;
 import org.mongodb.morphia.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.tanjin.framework.base.database.base.service.IBaseQueryService;
-import com.tanjin.framework.base.database.domain.page.PageResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
-import com.tanjin.framework.base.database.mongo.BaseMongoDAO;
+import com.giraffe.framework.base.database.base.service.IBaseQueryService;
+import com.giraffe.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.database.mongo.BaseMongoDAO;
 
 
 public class BaseMongoQueryService<T extends Serializable> implements IBaseQueryService<T> {

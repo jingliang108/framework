@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.domain.common;
+package com.giraffe.framework.base.database.domain.common;
 
 import java.io.Serializable;
 

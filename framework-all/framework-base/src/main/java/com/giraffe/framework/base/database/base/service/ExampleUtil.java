@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.base.service;
+package com.giraffe.framework.base.database.base.service;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -9,12 +9,12 @@ import java.util.Map;
 import javax.persistence.Id;
 import javax.persistence.Transient;
 
-import com.tanjin.framework.base.common.utils.BasicFieldUtil;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.common.utils.ReflectUtil;
-import com.tanjin.framework.base.database.domain.search.RangeCondition;
-import com.tanjin.framework.base.database.domain.search.RangeConditionType;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.common.utils.BasicFieldUtil;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.ReflectUtil;
+import com.giraffe.framework.base.database.domain.search.RangeCondition;
+import com.giraffe.framework.base.database.domain.search.RangeConditionType;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 import tk.mybatis.mapper.entity.Example;
 

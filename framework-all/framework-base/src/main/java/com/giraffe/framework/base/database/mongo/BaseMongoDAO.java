@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo;
+package com.giraffe.framework.base.database.mongo;
 
 
 import java.io.Serializable;
@@ -24,15 +24,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.mongodb.DBCollection;
 import com.mongodb.WriteConcern;
 import com.mongodb.WriteResult;
-import com.tanjin.framework.base.common.utils.BasicFieldUtil;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
-import com.tanjin.framework.base.common.utils.ReflectUtil;
-import com.tanjin.framework.base.database.domain.page.PageResult;
-import com.tanjin.framework.base.database.domain.page.PageSearch;
-import com.tanjin.framework.base.database.domain.search.RangeCondition;
-import com.tanjin.framework.base.database.domain.search.RangeConditionType;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.common.utils.BasicFieldUtil;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
+import com.giraffe.framework.base.common.utils.ReflectUtil;
+import com.giraffe.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.database.domain.page.PageSearch;
+import com.giraffe.framework.base.database.domain.search.RangeCondition;
+import com.giraffe.framework.base.database.domain.search.RangeConditionType;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 public class BaseMongoDAO<T extends Serializable, K extends Serializable> implements DAO<T, K> {
 

@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo.ext;
+package com.giraffe.framework.base.database.mongo.ext;
 
 import com.mongodb.MongoCredential;
 import org.mongodb.morphia.Datastore;

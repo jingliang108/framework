@@ -1,11 +1,11 @@
-package com.tanjin.framework.base.database.mysql.service.impl;
+package com.giraffe.framework.base.database.mysql.service.impl;
 
 
 import java.util.List;
 
 import com.github.pagehelper.PageHelper;
-import com.tanjin.framework.base.database.domain.page.PageResult;
-import com.tanjin.framework.base.database.domain.page.PageSearch;
+import com.giraffe.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.database.domain.page.PageSearch;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.entity.Example;

@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.utils;
+package com.giraffe.framework.base.wechat.utils;
 
 import java.util.Vector;
 

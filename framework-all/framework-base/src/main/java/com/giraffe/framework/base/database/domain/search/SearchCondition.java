@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.domain.search;
+package com.giraffe.framework.base.database.domain.search;
 
 
 import java.io.Serializable;
@@ -7,9 +7,9 @@ import java.util.Map;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.database.domain.common.SerializableModel;
-import com.tanjin.framework.base.database.domain.page.PageSearch;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.database.domain.common.SerializableModel;
+import com.giraffe.framework.base.database.domain.page.PageSearch;
 
 /**
  * 查询条件封装类，实体类的属性值都是等于的条件

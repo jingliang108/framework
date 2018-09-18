@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.annotations;
+package com.giraffe.framework.base.database.annotations;
 
 public enum DefaultValueType {
 

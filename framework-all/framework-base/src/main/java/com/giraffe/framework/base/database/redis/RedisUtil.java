@@ -1,8 +1,8 @@
-package com.tanjin.framework.base.database.redis;
+package com.giraffe.framework.base.database.redis;
 
 import java.util.Map;
 
-import com.tanjin.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
 
 public class RedisUtil {
 

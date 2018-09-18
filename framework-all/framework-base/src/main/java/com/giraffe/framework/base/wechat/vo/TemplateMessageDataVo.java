@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.vo;
+package com.giraffe.framework.base.wechat.vo;
 
 /**
  * 类说明

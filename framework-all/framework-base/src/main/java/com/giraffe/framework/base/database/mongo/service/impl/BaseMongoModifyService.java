@@ -1,15 +1,15 @@
-package com.tanjin.framework.base.database.mongo.service.impl;
+package com.giraffe.framework.base.database.mongo.service.impl;
 
 import java.io.Serializable;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.tanjin.framework.base.database.base.service.BaseServiceUtil;
-import com.tanjin.framework.base.database.base.service.IBaseModifyService;
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
-import com.tanjin.framework.base.database.mongo.BaseMongoDAO;
+import com.giraffe.framework.base.database.base.service.BaseServiceUtil;
+import com.giraffe.framework.base.database.base.service.IBaseModifyService;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.database.mongo.BaseMongoDAO;
 
 
 public class BaseMongoModifyService<T extends Serializable> implements IBaseModifyService<T> {

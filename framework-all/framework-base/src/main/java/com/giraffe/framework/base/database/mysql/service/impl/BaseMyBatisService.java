@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mysql.service.impl;
+package com.giraffe.framework.base.database.mysql.service.impl;
 
 import java.io.Serializable;
 import java.util.List;
@@ -6,16 +6,16 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.github.pagehelper.PageHelper;
-import com.tanjin.framework.base.common.utils.BasicFieldUtil;
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
-import com.tanjin.framework.base.database.base.service.BaseServiceUtil;
-import com.tanjin.framework.base.database.base.service.ExampleUtil;
-import com.tanjin.framework.base.database.base.service.IBaseService;
-import com.tanjin.framework.base.database.domain.page.PageResult;
-import com.tanjin.framework.base.database.domain.page.PageSearch;
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.common.utils.BasicFieldUtil;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
+import com.giraffe.framework.base.database.base.service.BaseServiceUtil;
+import com.giraffe.framework.base.database.base.service.ExampleUtil;
+import com.giraffe.framework.base.database.base.service.IBaseService;
+import com.giraffe.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.database.domain.page.PageSearch;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.entity.Example;

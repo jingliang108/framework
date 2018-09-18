@@ -1,11 +1,11 @@
-package com.tanjin.framework.base.database.base.service;
+package com.giraffe.framework.base.database.base.service;
 
 import java.io.Serializable;
 import java.util.List;
 
-import com.tanjin.framework.base.database.domain.page.PageResult;
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 import tk.mybatis.mapper.common.Mapper;
 

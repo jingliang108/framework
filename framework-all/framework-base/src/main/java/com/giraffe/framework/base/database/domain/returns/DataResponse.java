@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.domain.returns;
+package com.giraffe.framework.base.database.domain.returns;
 
 public class DataResponse extends BaseResponse {
 

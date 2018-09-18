@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo;
+package com.giraffe.framework.base.database.mongo;
 
 import org.springframework.beans.factory.config.AbstractFactoryBean;
 

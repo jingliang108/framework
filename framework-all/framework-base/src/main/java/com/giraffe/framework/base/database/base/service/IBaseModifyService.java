@@ -1,9 +1,9 @@
-package com.tanjin.framework.base.database.base.service;
+package com.giraffe.framework.base.database.base.service;
 
 import java.io.Serializable;
 
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 
 public interface IBaseModifyService<T extends Serializable> {

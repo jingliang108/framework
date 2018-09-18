@@ -1,9 +1,9 @@
-package com.tanjin.framework.base.database.domain.page;
+package com.giraffe.framework.base.database.domain.page;
 
 
 import java.util.List;
 
-import com.tanjin.framework.base.database.domain.common.SerializableModel;
+import com.giraffe.framework.base.database.domain.common.SerializableModel;
 
 /**
  * 分页查询结果集封装对象

@@ -1,10 +1,10 @@
-package com.tanjin.framework.base.database.redis;
+package com.giraffe.framework.base.database.redis;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.tanjin.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
 
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;

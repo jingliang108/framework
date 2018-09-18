@@ -1,11 +1,11 @@
-package com.tanjin.framework.base.database.domain.page.builders;
+package com.giraffe.framework.base.database.domain.page.builders;
 
 
 
 import java.util.List;
 
-import com.tanjin.framework.base.common.utils.EmptyUtil;
-import com.tanjin.framework.base.database.domain.page.PageResult;
+import com.giraffe.framework.base.common.utils.EmptyUtil;
+import com.giraffe.framework.base.database.domain.page.PageResult;
 
 /**
  * 分页结果对象的构造器

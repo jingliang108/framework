@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.domain.search;
+package com.giraffe.framework.base.database.domain.search;
 
 
 public enum RangeConditionType {

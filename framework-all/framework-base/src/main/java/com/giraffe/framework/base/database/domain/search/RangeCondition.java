@@ -1,6 +1,6 @@
-package com.tanjin.framework.base.database.domain.search;
+package com.giraffe.framework.base.database.domain.search;
 
-import com.tanjin.framework.base.database.domain.common.SerializableModel;
+import com.giraffe.framework.base.database.domain.common.SerializableModel;
 
 /**
  * 时间条件封装类，如果只有一个日期条件，请设置在startDate中

@@ -1,8 +1,8 @@
-package com.tanjin.framework.base.database.domain.returns;
+package com.giraffe.framework.base.database.domain.returns;
 
 import java.util.Date;
 
-import com.tanjin.framework.base.database.domain.common.SerializableModel;
+import com.giraffe.framework.base.database.domain.common.SerializableModel;
 
 /**
  * controller层对返回数据的封装基础类，一般只用于操作的接口

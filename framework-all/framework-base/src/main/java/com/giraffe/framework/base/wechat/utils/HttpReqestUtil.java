@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.utils;
+package com.giraffe.framework.base.wechat.utils;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Vector;
 
-import com.tanjin.framework.base.common.utils.FileUtil;
+import com.giraffe.framework.base.common.utils.FileUtil;
 
 
 public class HttpReqestUtil {

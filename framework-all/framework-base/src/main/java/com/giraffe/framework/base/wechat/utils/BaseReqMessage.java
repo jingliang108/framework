@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.wechat.utils;
+package com.giraffe.framework.base.wechat.utils;
 
 /**
  * 消息基类（普通用户 -> 公众帐号）

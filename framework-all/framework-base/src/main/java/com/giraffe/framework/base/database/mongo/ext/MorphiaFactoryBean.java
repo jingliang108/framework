@@ -1,4 +1,4 @@
-package com.tanjin.framework.base.database.mongo.ext;
+package com.giraffe.framework.base.database.mongo.ext;
 
 import org.mongodb.morphia.Morphia;
 import org.springframework.beans.factory.config.AbstractFactoryBean;

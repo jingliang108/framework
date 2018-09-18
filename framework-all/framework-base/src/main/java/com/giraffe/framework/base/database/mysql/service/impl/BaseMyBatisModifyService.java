@@ -1,15 +1,15 @@
-package com.tanjin.framework.base.database.mysql.service.impl;
+package com.giraffe.framework.base.database.mysql.service.impl;
 
 import java.io.Serializable;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.tanjin.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
-import com.tanjin.framework.base.database.base.service.BaseServiceUtil;
-import com.tanjin.framework.base.database.base.service.ExampleUtil;
-import com.tanjin.framework.base.database.base.service.IBaseModifyService;
-import com.tanjin.framework.base.database.domain.returns.BaseResult;
-import com.tanjin.framework.base.database.domain.search.SearchCondition;
+import com.giraffe.framework.base.common.utils.ModelSetFieldDefaultValueUtil;
+import com.giraffe.framework.base.database.base.service.BaseServiceUtil;
+import com.giraffe.framework.base.database.base.service.ExampleUtil;
+import com.giraffe.framework.base.database.base.service.IBaseModifyService;
+import com.giraffe.framework.base.database.domain.returns.BaseResult;
+import com.giraffe.framework.base.database.domain.search.SearchCondition;
 
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.entity.Example;
